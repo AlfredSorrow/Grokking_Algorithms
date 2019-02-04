@@ -1,6 +1,6 @@
 <?php
 
-function binarySearch (array $sortedArray, $item)
+function binarySearch (array $sortedArray, int $item)
 {
   $low = 0;
   $high = sizeOf($sortedArray) - 1;

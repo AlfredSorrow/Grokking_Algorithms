@@ -1,6 +1,6 @@
 <?php
 
-function countdown($number)
+function countdown(int $number)
 {
   echo $number . "\n";
   if ($number <= 0) {
