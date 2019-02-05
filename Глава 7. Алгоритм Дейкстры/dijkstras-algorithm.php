@@ -15,7 +15,7 @@ $parents['a'] = "start";
 $parents['b'] = "start";
 $parents['fin'] = null;
 
-function findLowestCostsNode(array $costs, $processed)
+function findLowestCostsNode(array $costs, array $processed)
 {
   $minCost = INF;
   $minCostNode = null;
